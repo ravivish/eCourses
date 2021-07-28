@@ -1,0 +1,22 @@
+.cart-title{
+    padding: 50px;
+    background-color: black;
+    font-size: 28px;
+    color: white;
+    max-width: 100%;
+}
+.cart-list{
+    list-style: none;
+}
+.cart-list-items{
+    display: flex;
+    align-items: center;
+}
+.cart-container{
+    display: flex;
+    margin-left :20px    
+}
+.cart-items-thumbnail{
+    max-height: 100px;
+    max-width: 100px;
+}

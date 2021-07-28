@@ -1,0 +1,23 @@
+.login-container {
+    display: flex;
+    margin-top: 50px;
+    
+    
+}
+form {
+    display: grid;
+    /* grid-template-columns: max-content 1fr; */
+    justify-content: center;
+    grid-column-gap: 1em;
+    margin-top: 50px;
+    
+}
+
+.field {
+    grid-column: span 2;
+    display: grid;
+    grid: inherit;
+    grid-template-columns: 6em 1fr;
+    grid-template-columns: subgrid;
+    grid-gap: inherit;
+}

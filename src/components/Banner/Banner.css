@@ -1,0 +1,11 @@
+.Banner {
+  box-sizing: border-box;
+}
+.img-banner{
+  width: 100%;
+}
+.sampleText {
+  position: relative;
+  top: 4em;
+  left: 2em;
+}

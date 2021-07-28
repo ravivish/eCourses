@@ -1,0 +1,20 @@
+.Form {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 1em;
+  margin-bottom: 1em;
+}
+
+.Field {
+  grid-column: span 2;
+  display: grid;
+  grid: inherit;
+  grid-template-columns: subgrid;
+  grid-gap: inherit;
+  outline: none;
+}
+
+.FormElement {
+  padding: 1em;
+  margin: 1em 1em;
+}

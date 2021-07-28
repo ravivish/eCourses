@@ -1,0 +1,27 @@
+.Details {
+  display: grid;
+  grid-template-columns: auto 25em;
+}
+.Content {
+  position: relative;
+}
+.Imgdetails {
+  display: flex;
+  flex-direction: column;
+  padding: 2.4rem;
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 5 px;
+}
+.addtocartbtn {
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  font: inherit;
+  margin-top: 1em;
+  border: 1px solid #6dace7;
+  color: white;
+  background-color: #6dace7;
+  padding: 0.8em;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
