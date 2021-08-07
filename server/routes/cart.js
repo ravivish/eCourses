@@ -3,7 +3,7 @@ const router = express.Router();
 const Cart = require("../models/cart");
 const Product = require("../models/product");
 
-router.post("/", (req, res) => {
+router.post("/", (req, res) => { 
   if (!req.body) {
     res.status(400).send({ error: "parameters is not present in request" });
     return;
